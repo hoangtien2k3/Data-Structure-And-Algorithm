@@ -1,4 +1,4 @@
-package LinkedList.SingleLinkedList.LinkList_Java;
+package LinkedList.SingleLinkedList.LinkList_Java.Students;
 
 public class Main {
     public static void main(String[] args) {

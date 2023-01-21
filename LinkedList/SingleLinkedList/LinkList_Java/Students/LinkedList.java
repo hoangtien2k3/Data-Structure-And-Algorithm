@@ -1,4 +1,4 @@
-package LinkedList.SingleLinkedList.LinkList_Java;
+package LinkedList.SingleLinkedList.LinkList_Java.Students;
 
 public class LinkedList {
     private int size;
@@ -24,6 +24,7 @@ public class LinkedList {
             }
             currentNode = currentNode.next;
         }
+
         return null;
     }
 
