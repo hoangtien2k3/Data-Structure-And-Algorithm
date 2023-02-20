@@ -23,10 +23,9 @@ An algorithm is a set of instructions that are used to accomplish a task, such a
 Algorithms are not limited to computers. They are like a set of step-by-step instructions or an even a recipe, containing things you need, steps to do, the order to do them, conditions to look for, and expected results.
 
 ## Languages
+- C
 - C++
-- Python
 - Java
-- JavaScript
 
 ## Support
 
