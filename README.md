@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/codeperfectplus/awesomeScripts/issues"><img src="https://img.shields.io/github/issues-raw/codeperfectplus/AlgorithmsAndDataStructure?style=for-the-badge" alt="open issues"></a>
-<a href="https://github.com/codeperfectplus/awesomeScripts/issues"><img src="https://img.shields.io/github/issues-closed-raw/codeperfectplus/AlgorithmsAndDataStructure?style=for-the-badge" alt="closed issues"><a/>
-<a href="https://github.com/codeperfectplus/awesomeScripts/pulls"><img src="https://img.shields.io/github/issues-pr-raw/codeperfectplus/AlgorithmsAndDataStructure?style=for-the-badge" alt="open pull request"></a>
-<a href="https://github.com/codeperfectplus/awesomeScripts/pulls"><img src="https://img.shields.io/github/issues-pr-closed-raw/codeperfectplus/AlgorithmsAndDataStructure?style=for-the-badge" alt="closed pull request"></a>
+<a href="https://github.com/hoangtien2k3qx1/awesomeScripts/issues"><img src="https://img.shields.io/github/issues-raw/codeperfectplus/AlgorithmsAndDataStructure?style=for-the-badge" alt="open issues"></a>
+<a href="https://github.com/hoangtien2k3qx1/awesomeScripts/issues"><img src="https://img.shields.io/github/issues-closed-raw/codeperfectplus/Data-Structure-And-Algorithm?style=for-the-badge" alt="closed issues"><a/>
+<a href="https://github.com/hoangtien2k3qx1/awesomeScripts/pulls"><img src="https://img.shields.io/github/issues-pr-raw/codeperfectplus/Data-Structure-And-Algorithm?style=for-the-badge" alt="open pull request"></a>
+<a href="https://github.com/hoangtien2k3qx1/awesomeScripts/pulls"><img src="https://img.shields.io/github/issues-pr-closed-raw/codeperfectplus/Data-Structure-And-Algorithm?style=for-the-badge" alt="closed pull request"></a>
 </p>
 
 
