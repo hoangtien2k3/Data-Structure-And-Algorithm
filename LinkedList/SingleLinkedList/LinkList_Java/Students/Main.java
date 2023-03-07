@@ -7,8 +7,10 @@ public class Main {
 
         LinkedList list = new LinkedList();
 
+        // add cách 1:
         list.insertAt(new Node(new Student("Huy", 20)), 10);
 
+        // add cách 2:
         Student Nam = new Student("Nam", 23);
         Node newNode = new Node(Nam);
         list.insertAt(newNode, 1);

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a3703c1-3818-493e-9159-6e1930578ac8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heap/MyHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/SingleLinkedList/LinkList_Java/Test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/SingleLinkedList/LinkList_Java/Test/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/.github/workflows/c-cpp.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/.github/workflows/cmake.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/.github/workflows/grid-snake.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/.idea/Data-Structure-And-Algorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Array/bai1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Array/bai10.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Array/bai2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Array/bai3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Array/bai4.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Array/bai5.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Array/bai6.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Array/bai7.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Array/bai8.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Array/bai9.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Graph/0_Graph.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Graph/Breadth First Search _ BFS/BFS.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Graph/DanhSachCanhSangDanhSachKe.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Graph/DanhSachCanhSangMaTranKe.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Graph/Depth First Search _ DFS/DepthFristSearch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Graph/MaTranKeSangDanhSachCanh.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Greedy/1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Greedy/2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Greedy/Big_sum_add.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Greedy/Cong_Tru_Nhan_Cac_So_Lon.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Greedy/test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/BAITAP.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/CircularLinkedList/0_Single_Linked_Circular_List.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/CircularLinkedList/0_Single_Linked_Circular_List.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/CircularLinkedList/1_Double_Linked_Circular_List.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/CircularLinkedList/1_Double_Linked_Circular_List.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/De_2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/DoubleLinkedList/0_Double_Linked_List.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/DoubleLinkedList/0_Double_Linked_List.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/DoubleLinkedList/bai27.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/DoubleLinkedList/bai28.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/DoubleLinkedList/bai29.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/DoubleLinkedList/test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/Quan_Ly_SV.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/0_Single_Linked_List.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/0_Single_Linked_list.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/0_Single_Linked_list.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/1_Diffirence_Array_and_LinkedList.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/LinkList_Java/Students/LinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/LinkList_Java/Students/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/LinkList_Java/Students/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/LinkList_Java/Students/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/LinkList_Java/Test/LinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/LinkList_Java/Test/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/LinkList_Java/Test/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/SingleLinkedList_And_Queue/queueLinkedList.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/SingleLinkedList_Anh_Stack/StackLinkedList.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/SingleLinkedList_Anh_Stack/dao_nguoc_tu.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/XoaNodeDuThua.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/bai21.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/bai22.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/bai23.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/bai24.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/bai25.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/bai26.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/SingleLinkedList/test1111.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/LinkedList/quan_ly_danh_sach_sinh_vien.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Recursion/0_Recursion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Recursion/0_de_quy.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Recursion/bai52.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Recursion/bai53.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Recursion/bai54.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Recursion/bai55.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Recursion/bai58.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Recursion/bai59.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Recursion/bai61.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Search/Binary_Search/Binary_Search.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Search/Interpolation_Search/interpolation_search.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Search/Linear_Search.cpp/LinearSearch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Search/bai37.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Some_Algorithmic_Concepts/BigO.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Some_Algorithmic_Concepts/BigO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Some_Algorithmic_Concepts/Grap_BigO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Sort/BubbleSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Sort/InsertionSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Sort/InterchangeSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Sort/MergeSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Sort/QuickSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Sort/SelectionSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Sort/ShellSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Stack/SingleLinkedList_Anh_Stack/StackLinkedList.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Stack/SingleLinkedList_Anh_Stack/dao_nguoc_tu.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Stack/Stack/Binary.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Stack/Stack/Postfix.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Stack/Stack/Postfix.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/StackAndQueue/Queue/0_queue.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/StackAndQueue/Queue/Danh Sách Liên Kết với Queue/queueLinkedList.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/StackAndQueue/Queue/bai17.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/StackAndQueue/Queue/bai18.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/StackAndQueue/Queue/bai19.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/StackAndQueue/Stack/0_stack.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/StackAndQueue/Stack/Danh Sách Liên Kết với Stack/StackLinkedList.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/StackAndQueue/Stack/Danh Sách Liên Kết với Stack/dao_nguoc_tu.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/StackAndQueue/Stack/bai14.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/StackAndQueue/Stack/bai15.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Tree/AVL_Tree/AVL.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Tree/AVL_Tree/AVL_Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Tree/AVL_Tree/AVL_Tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Tree/AVL_Tree/test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Tree/AVL_Tree/test_tree1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Tree/AVL_Tree/test_tree2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Tree/BinarySearchTree/0_Binary_Search_Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Tree/BinarySearchTree/0_tree-data-structure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Tree/BinarySearchTree/BinaryTree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Tree/BinarySearchTree/Height_Binary_Search_Tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Tree/BinarySearchTree/testtemplate.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Tree/BinaryTree/1_BinaryTree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Tree/BinaryTree/1_Binary_Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Tree/BinaryTree/binary_Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Tree/bai62.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Tree/bai64.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/Tree/test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/dist/github-contribution-grid-snake.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Data-Structure-And-Algorithm/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SingleLinkedList/0_Single_Linked_list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/SingleLinkedList/0_Single_Linked_list.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SingleLinkedList/LinkList_Java/Students/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/SingleLinkedList/LinkList_Java/Students/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SingleLinkedList/LinkList_Java/Test/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/SingleLinkedList/LinkList_Java/Test/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SingleLinkedList/LinkList_Java/Test/SLL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SingleLinkedList/LinkList_Java/Test/SLLNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Search/Binary_Search/Binary_Search.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Search/Binary_Search/Binary_Search.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2M0bRQDYNMXiK19MzJv1gBEvkPF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Code Java/Data-Structure-And-Algorithm"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.LinkedList.SingleLinkedList.LinkList_Java.Test.Main">
+    <configuration name="LinkedList.SingleLinkedList.LinkList_Java.Test.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.SingleLinkedList.LinkList_Java.Test.Main" />
+      <module name="Data-Structure-And-Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList.SingleLinkedList.LinkList_Java.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.SingleLinkedList.LinkList_Java.Students.Main" />
+      <module name="Data-Structure-And-Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList.SingleLinkedList.LinkList_Java.Students.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LinkedList.SingleLinkedList.LinkList_Java.Test.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a3703c1-3818-493e-9159-6e1930578ac8" name="Changes" comment="" />
+      <created>1676907437721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676907437721</updated>
+    </task>
+    <servers />
+  </component>
+</project>
