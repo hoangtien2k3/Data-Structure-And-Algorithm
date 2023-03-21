@@ -5,6 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a3703c1-3818-493e-9159-6e1930578ac8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BaiTap/Bai1/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/Bai1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/Bai1/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/Bai1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/Bai1/Programmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/Bai1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/Bai11/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/Bai11/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/Bai11/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/Bai11/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/Bai11/Programmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/Bai11/SalaryCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/Bai11/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/Bai2/Dinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/Bai2/Hinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/Bai2/HinhChuNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/Bai2/HinhVuong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/Bai2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/Bai2/TuGiac.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,10 +56,49 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Code Java/Java-Backend-Developer"
+    "last_opened_file_path": "D:/Code Java/Data-Structure-And-Algorithm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LinkedList.SingleLinkedList.LinkList_Java.Test.Main">
+  <component name="RunManager" selected="Application.BaiTap.Bai2.Main">
+    <configuration name="BaiTap.Bai1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTap.Bai1.Main" />
+      <module name="Data-Structure-And-Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BaiTap.Bai1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaiTap.Bai2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTap.Bai2.Main" />
+      <module name="Data-Structure-And-Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BaiTap.Bai2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlappyBirds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GameFlappyBirds.SourcePackages.flappybirds.FlappyBirds" />
+      <module name="Data-Structure-And-Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GameFlappyBirds.SourcePackages.flappybirds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkedList.SingleLinkedList.LinkList_Java.Test.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.SingleLinkedList.LinkList_Java.Test.Main" />
       <module name="Data-Structure-And-Algorithm" />
@@ -54,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.SingleLinkedList.LinkList_Java.Students.Main" />
+    <configuration name="bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTap.Bai1.bai1" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.SingleLinkedList.LinkList_Java.Students.*" />
+          <option name="PATTERN" value="BaiTap.Bai1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,8 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BaiTap.Bai2.Main" />
+        <item itemvalue="Application.BaiTap.Bai1.Main" />
+        <item itemvalue="Application.bai1" />
+        <item itemvalue="Application.FlappyBirds" />
         <item itemvalue="Application.LinkedList.SingleLinkedList.LinkList_Java.Test.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
