@@ -5,26 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a3703c1-3818-493e-9159-6e1930578ac8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BaiTap/Bai1/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/Bai1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/Bai1/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/Bai1/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/Bai1/Programmer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/Bai1/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/Bai11/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/Bai11/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/Bai11/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/Bai11/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/Bai11/Programmer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/Bai11/SalaryCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/Bai11/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/Bai2/Dinh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/Bai2/Hinh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/Bai2/HinhChuNhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/Bai2/HinhVuong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/Bai2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/Bai2/TuGiac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/test/bai1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/test2/bai2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/bai4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/bai4/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/bai4/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/bai5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/test/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/SingleLinkedList/LinkList_Java/Students/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/SingleLinkedList/LinkList_Java/Students/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,16 +45,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Code Java/Data-Structure-And-Algorithm"
+    "last_opened_file_path": "D:/CodeJava/Data-Structure-And-Algorithm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BaiTap.Bai2.Main">
-    <configuration name="BaiTap.Bai1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTap.Bai1.Main" />
+  <component name="RunManager" selected="Application.Stack.bai5.Main (3)">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.bai4.Main" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BaiTap.Bai1.*" />
+          <option name="PATTERN" value="Stack.bai4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaiTap.Bai2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTap.Bai2.Main" />
+    <configuration name="Stack.bai5.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.bai5.Main" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BaiTap.Bai2.*" />
+          <option name="PATTERN" value="Stack.bai5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlappyBirds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GameFlappyBirds.SourcePackages.flappybirds.FlappyBirds" />
+    <configuration name="Stack.bai5.Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.bai5.Main" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GameFlappyBirds.SourcePackages.flappybirds.*" />
+          <option name="PATTERN" value="Stack.bai5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList.SingleLinkedList.LinkList_Java.Test.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.SingleLinkedList.LinkList_Java.Test.Main" />
+    <configuration name="Stack.bai5.Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.bai5.Main" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.SingleLinkedList.LinkList_Java.Test.*" />
+          <option name="PATTERN" value="Stack.bai5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTap.Bai1.bai1" />
+    <configuration name="Stack.bai5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.bai5.Main" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BaiTap.Bai1.*" />
+          <option name="PATTERN" value="Stack.bai5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BaiTap.Bai2.Main" />
-        <item itemvalue="Application.BaiTap.Bai1.Main" />
-        <item itemvalue="Application.bai1" />
-        <item itemvalue="Application.FlappyBirds" />
-        <item itemvalue="Application.LinkedList.SingleLinkedList.LinkList_Java.Test.Main" />
+        <item itemvalue="Application.Stack.bai5.Main (3)" />
+        <item itemvalue="Application.Stack.bai5.Main (2)" />
+        <item itemvalue="Application.Stack.bai5.Main (1)" />
+        <item itemvalue="Application.Stack.bai5.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

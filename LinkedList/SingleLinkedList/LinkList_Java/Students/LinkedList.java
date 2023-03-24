@@ -33,9 +33,7 @@ public class LinkedList {
             node.next = this.head;
             this.head = node;
 
-            if (this.tail == null) {
-                this.tail = node;
-            }
+            if (this.tail == null)
 
             this.size++;
             return;
