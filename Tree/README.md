@@ -1,45 +1,49 @@
-#include<iostream>
+```c++
+
+#include <iostream>
+#include <algorithm>
+#include <vector>
 using namespace std;
- 
-void counting_sort(int arr[], int n, int range)
+
+// Hàm thực hiện Bucket Sort để sắp xếp mảng
+void bucketSort(float arr[], int n)
 {
-    int count[range + 1], i;
-    int output[n];
-    memset(count, 0, sizeof(count));
- 
-    for(i = 0; i < n; i++)
-        count[arr[i]]++;
- 
-    for(i = 1; i <= range; i++)
-        count[i] += count[i-1];
- 
-    for(i = n-1; i >= 0; i--)
+    // Khởi tạo một mảng chứa các bucket
+    vector<float> bucket[n];
+
+    // Đưa các phần tử của mảng vào bucket tương ứng
+    for (int i = 0; i < n; i++)
     {
-        output[count[arr[i]]-1] = arr[i];
-        count[arr[i]]--;
+        int bucketIndex = n * arr[i];
+        bucket[bucketIndex].push_back(arr[i]);
     }
- 
-    for(i = 0; i < n; i++)
-        arr[i] = output[i];
+
+    // Sắp xếp các phần tử trong từng bucket bằng insertion sort
+    for (int i = 0; i < n; i++)
+        sort(bucket[i].begin(), bucket[i].end());
+
+    // Đưa các phần tử đã sắp xếp trở lại vào mảng
+    int index = 0;
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < bucket[i].size(); j++)
+            arr[index++] = bucket[i][j];
 }
- 
+
+// Hàm in ra mảng
+void printArray(float arr[], int n)
+{
+    for (int i = 0; i < n; i++)
+        cout << arr[i] << " ";
+}
+
 int main()
 {
-    int arr[] = {4, 2, 10, 3, 1, 7, 9, 8, 6, 5};
-    int n = sizeof(arr)/sizeof(arr[0]);
-    int range = 10; // Phạm vi giá trị từ 0 đến 9
- 
-    cout << "Mang truoc khi sap xep: ";
-    for(int i = 0; i < n; i++)
-        cout << arr[i] << " ";
- 
-    counting_sort(arr, n, range);
- 
-    cout << "\nMang sau khi sap xep: ";
-    for(int i = 0; i < n; i++)
-        cout << arr[i] << " ";
- 
+    float arr[] = {0.897, 0.565, 0.656, 0.1234, 0.665, 0.3434};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    bucketSort(arr, n);
+    printArray(arr, n);
     return 0;
 }
-                          
-                          
+
+```
