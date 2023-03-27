@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a3703c1-3818-493e-9159-6e1930578ac8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BaiTap/test/bai1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/test2/bai2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/bai4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/bai4/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/bai4/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/bai5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/test/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution/Solution1/ShortestPathUsingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution/Solution1/ShortestPathUsingStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/Solution/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/SingleLinkedList/LinkList_Java/Students/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/SingleLinkedList/LinkList_Java/Students/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/bai4/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/bai4/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/bai4/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/bai5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/baitap/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +30,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="fe1b7b07-9690-4c81-97ce-edbbb89131bd" />
+        <option name="url" value="https://github.com/hoangtien2k3qx1/Data-Structure-And-Algorithm.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -45,16 +58,20 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/CodeJava/Data-Structure-And-Algorithm"
+    "last_opened_file_path": "D:/CodeJava/Data-Structure-And-Algorithm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Stack.bai5.Main (3)">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.bai4.Main" />
+  <component name="RunManager" selected="Application.ShortestPathUsingQueue">
+    <configuration name="ShortestPathUsingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution.Solution1.ShortestPathUsingQueue" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.bai4.*" />
+          <option name="PATTERN" value="Solution.Solution1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stack.bai5.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.bai5.Main" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.Solution.Solution" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.bai5.*" />
+          <option name="PATTERN" value="Stack.Solution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stack.bai5.Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.bai5.Main" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.Solution.Solution" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.bai5.*" />
+          <option name="PATTERN" value="Stack.Solution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stack.bai5.Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.bai5.Main" />
+    <configuration name="Stack.baitap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.baitap.Main" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.bai5.*" />
+          <option name="PATTERN" value="Stack.baitap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stack.bai5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.bai5.Main" />
+    <configuration name="solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.Solution.solution" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.bai5.*" />
+          <option name="PATTERN" value="Stack.Solution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Stack.bai5.Main (3)" />
-        <item itemvalue="Application.Stack.bai5.Main (2)" />
-        <item itemvalue="Application.Stack.bai5.Main (1)" />
-        <item itemvalue="Application.Stack.bai5.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ShortestPathUsingQueue" />
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.solution" />
+        <item itemvalue="Application.Stack.baitap.Main" />
       </list>
     </recent_temporary>
   </component>

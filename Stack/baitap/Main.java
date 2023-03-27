@@ -1,6 +1,6 @@
-//package Stack.bai5;
+package Stack.baitap;
 
-import java.util.Scanner;
+import java.util.*;
 
 class Node<T> {
     private T data;
@@ -15,8 +15,8 @@ class Node<T> {
         this.data = data;
     }
 
-    public void setNext(Node<T> top) {
-        this.next = top;
+    public void setNext(Node<T> next) {
+        this.next = next;
     }
 
     public T getData() {
@@ -42,7 +42,7 @@ class Stack<T> {
 
     public void push(T data) {
         Node<T> temp = (Node<T>) new Node<>(data);
-        temp.setNext(top); // temp->next = top;
+        temp.setNext(top); // temp.next = top;
         top = temp;
     }
 
@@ -51,7 +51,7 @@ class Stack<T> {
             throw new IllegalStateException("Stack is empty!");
         }
         T data = (T) top.getData();
-        top = top.getNext(); // top = top->next;
+        top = top.getNext(); // top = top.next;
         return data;
     }
 
@@ -66,15 +66,11 @@ class Stack<T> {
         if (isEmpty()) {
             throw new IllegalStateException("Stack is empty!");
         }
-        Integer sum = (Integer) Integer.valueOf(0);
-        Node<T> temp = top;
-        while(temp != null) {
-            // lấy tổng sum;
-            sum = (Integer) Integer.valueOf(sum.intValue() + ((Integer) temp.getData()).intValue());
-            Node<T> tempnext = temp.getNext(); // lưu trữ nút tiếp theo.
-            temp.setNext(null); // xóa liên kết phần tử hiện tại và phần tử tiếp theo.
-            top = tempnext;
-            temp = top;
+        Integer sum = new Integer(0);
+        Node<T> current = top;
+        while (current != null) {
+            sum += Integer.parseInt(current.getData().toString());
+            current = current.getNext();
         }
         return (T) sum;
     }
@@ -105,15 +101,16 @@ public class Main {
         Scanner input = new Scanner(System.in);
         Stack<Integer> myStack = new Stack<>();
         while(true) {
-            System.out.println("__________________________________");
-            System.out.println("\n1. Them gia tri vao Stack");
+            System.out.println("______________ Menu ______________");
+            System.out.println("1. Them gia tri vao Stack");
             System.out.println("2. Xoa gia tri khoi Stack");
             System.out.println("3. Kiem tra rong");
             System.out.println("4. Tong cac gia tri trong Stack");
             System.out.println("5. Tim kiem gia tri trong Stack");
             System.out.println("6. Xuat danh sach Stack");
+            System.out.println("7. Ket Thuc Chuong Trinh");
             System.out.println("__________________________________\n");
-            System.out.print("Nhap lua chon: ");
+            System.out.print("=> Nhap lua chon: ");
             int lc = input.nextInt();
             switch (lc) {
                 case 1: {
@@ -124,9 +121,8 @@ public class Main {
                     break;
                 }
                 case 2: {
-                    System.out.print("Xoa gia tri dau khoi Stack");
                     myStack.pop();
-                    System.out.println("Xoa gia tri thanh cong !");
+                    System.out.print("Xoa thanh cong gia tri dau khoi Stack");
                     break;
                 }
                 case 3: {
@@ -160,7 +156,7 @@ public class Main {
                     System.out.print("Ket thuc chuong trinh !!!");
                     return;
                 default:
-                    System.out.println("Nhap lai chua chon !!!");
+                    System.out.println("=> Nhap lai chua chon !!!\n");
                     break;
             }
         }
