@@ -80,39 +80,53 @@ bool is_valid(Point p) {
 }
 
 
-// BFS (Breadth-first search) : duyệt theo chiều rộng của đồ thị (áp dụng thuật toán duyệt theo chiều rộng vào đây)
+// Hàm BFS sẽ tìm kiếm đường đi ngắn nhất từ điểm bắt đầu "start" đến điểm kết thúc "end" trên một ma trận "maze". 
+// Hàm này trả về độ dài đường đi ngắn nhất hoặc giá trị -1 nếu không tìm thấy đường đi.
 int bfs(Point start, Point end, Queue* queue) {
-    init_queue(queue);
-    enqueue(queue, start);
-    maze[start.x][start.y] = 1;
-    int distance = 0;
-    while (!is_queue_empty(queue)) {
-    int size = 0;
-    Node* current = queue->front; // gán con trỏ current bằng con trỏ front, để danh sách không bị thay đổi khi thực hiện tính toán
-	    while (current != NULL) { // nếu current != NULL thì hàm nhảy vào hàm vòng lặp
-		    size++; // tăng size lên 1 đơn vị
-		    current = current->next; // con trỏ dịch duyển một nút
+    init_queue(queue);              // Hàm "init_queue" được sử dụng để khởi tạo hàng đợi trống.
+    enqueue(queue, start);          // Thêm điểm bắt đầu "start" vào hàng đợi 
+    
+    maze[start.x][start.y] = 1;     // và đánh dấu nó là đã duyệt qua (giá trị 1 trên ma trận "maze").
+    int distance = 0;               // Khởi tạo biến "distance" để đếm số bước đi trong đường đi ngắn nhất từ "start" đến "end".
+    while (!is_queue_empty(queue)) {    // Tiếp tục thực hiện vòng lặp cho đến khi hàng đợi trống.
+        int size = 0;
+
+        // Tính toán số lượng phần tử trong hàng đợi bằng cách duyệt từ đầu đến cuối danh sách liên kết. 
+        Node* current = queue->front; 
+	    while (current != NULL) { 
+		    size++;                     // Biến "size" được sử dụng trong vòng lặp tiếp theo để chỉ số lượng phần tử cần duyệt trong hàng đợi ở mỗi lần lặp.
+		    current = current->next;     // Dịch con trỏ current sang phần tử kế tiếp trong danh sách liên kết.
 		}
-	    for (int i = 0; i < size; i++) {
-	        Point p = dequeue(queue);
-	        if (p.x == end.x && p.y == end.y) {
-	            maze[start.x][start.y] = 2;
-	            return distance;
+
+        // Đoạn code này có nhiệm vụ lấy ra các điểm hàng xóm của điểm hiện tại đang được xét, đánh dấu các 
+        // điểm hàng xóm đã được duyệt qua và thêm các điểm hàng xóm chưa duyệt vào trong queue.
+	    for (int i = 0; i < size; i++) {    // Vòng lặp for duyệt qua từng điểm trong queue, được lưu trữ dưới dạng một danh sách liên kết. 
+	        Point p = dequeue(queue);       // Mỗi lần duyệt qua một điểm, ta sẽ lấy điểm đó ra khỏi queue bằng hàm dequeue.
+	        if (p.x == end.x && p.y == end.y) { // Sau đó, ta kiểm tra xem điểm đó có trùng vị trí với điểm kết thúc hay không.
+	            maze[start.x][start.y] = 2;     // Nếu có, ta đánh dấu điểm bắt đầu là đã tìm được đường đi
+	            return distance;                // trả về khoảng cách từ điểm bắt đầu đến điểm hiện tại thông qua biến distance.
 	        }
-	        Point neighbors[] = {{p.x-1, p.y}, {p.x+1, p.y}, {p.x, p.y-1}, {p.x, p.y+1}}; // xet tọa độ
+
+            // Nếu điểm hiện tại không phải là điểm kết thúc, ta tạo một mảng 4 điểm hàng xóm của điểm hiện tại và kiểm tra xem từng điểm hàng xóm có 
+            // hợp lệ không (không được vượt quá kích thước của ma trận và chưa được duyệt trước đó).
+	        Point neighbors[] = {{p.x-1, p.y}, {p.x+1, p.y}, {p.x, p.y-1}, {p.x, p.y+1}}; 
 	        for (int j = 0; j < 4; j++) {
 	            Point n = neighbors[j]; // gán giá trị Point
-	            if (is_valid(n)) {
-	                enqueue(queue, n); // gọi tới hàm enqueue xuống
-	                maze[n.x][n.y] = 1; // gán tạo độ điểm đó là 1(nghĩa là đã được duyệt qua)
+	            if (is_valid(n)) {  // Nếu điểm hàng xóm hợp lệ, ta thêm điểm hàng xóm vào queue bằng hàm enqueue
+	                enqueue(queue, n);  // gọi tới hàm enqueue xuống
+	                maze[n.x][n.y] = 1; // đánh dấu điểm đó là đã được duyệt qua bằng cách gán giá trị của điểm đó trong ma trận maze bằng 1.
 	            }
 	        }
 	    }
-	    distance++; // tăng distance lên 1 đơn vị
+
+	    distance++; // Tăng biến distance lên 1 đơn vị.
+        // Quá trình lặp lại cho đến khi queue rỗng hoặc tìm được đường đi.
 	}
-    maze[start.x][start.y] = 2; // lệnh gán
-    return -1;  // No path found
+
+    maze[start.x][start.y] = 2; // Gán giá trị 2 vào tọa độ đầu tiên để cho biết rằng nó đã được duyệt qua.
+    return -1;  // No path found (Trả về -1 nếu không tìm thấy đường đi từ điểm bắt đầu đến điểm kết thúc.)
 }
+
 
 // hàm này để in ra ma trận thêm vào
 void print_maze() {
