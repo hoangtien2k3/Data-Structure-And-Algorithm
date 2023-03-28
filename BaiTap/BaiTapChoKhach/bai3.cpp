@@ -1,3 +1,40 @@
+/**
+ * @file bai2.cpp
+ * @author hoangtien2k3 (hoangtien2k3qx1@gmail.com)
+ * @brief 
+ * @version 0.1
+ * @date 2023-03-28
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
+
+/*  ! Đề bài:
+    Queue & Stack: Path finding in the maze.
+
+    Given a maze defined by a 2-dimensional matrix of size (m x n) of integers. In which the values of the elements
+    have the following meanings:
+
+    ‘The number 0 represents the Way/can be walked
+    ‘The number 1 stands for Obstacle
+    ‘The number 2 represents the Entrance.
+    ‘The number 3 represents the Exit.
+
+    For example:
+    int A[][] = {
+            {3, 0, 0, 0, 0},
+            {0, 1, 1, 1, 0),
+            {0, 1, 2, 1, 0},
+            {0, 1, 0, 0, 0},
+            {0, 0, 0, 0, 0}
+        };
+
+    1. Write a program to find the shortest path from a given point to the Exit using Stack ADT (2points)
+
+    2. Write a program to find the shortest path from a given point to the Exit using Queue ADT (2points)
+    Linked List & BST & AVL Tree: Finding a sub-string in a given string.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
