@@ -3,9 +3,16 @@
 
 #define MAX_MAZE_SIZE 100
 
-int maze[MAX_MAZE_SIZE][MAX_MAZE_SIZE];
-int visited[MAX_MAZE_SIZE][MAX_MAZE_SIZE];
-int m, n;
+int maze[][5] = {
+	    {3, 0, 0, 0, 0},
+	    {0, 1, 1, 1, 0},
+	    {0, 1, 2, 1, 0},
+	    {0, 1, 0, 0, 0},
+	    {0, 0, 0, 0, 0}
+	};
+int m = 5, n = 5; // m là số hàng, n là số cố cột.
+
+int visited[MAX_MAZE_SIZE][MAX_MAZE_SIZE]; // tạo ra một mảng visited với số hàng và số cột là MAX_MAZE_SIZE
 
 struct Point {
     int x, y;
@@ -157,14 +164,8 @@ void findPath(int startX, int startY) {
 
 int main() {
 	// Read maze from input
-	printf("Enter the number of rows and columns: ");
-	scanf("%d %d", &m, &n);
-	printf("Enter the maze:\n");
-	for (int i = 0; i < m; i++) {
-    	for (int j = 0; j < n; j++) {
-			scanf("%d", &maze[i][j]);
-		}
-	}	
+
+
 	// Find entrance and start searching for path
 	int startX = -1, startY = -1;
 	for (int i = 0; i < m; i++) {

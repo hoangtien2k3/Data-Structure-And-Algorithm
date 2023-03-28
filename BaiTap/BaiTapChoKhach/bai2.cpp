@@ -7,6 +7,18 @@
 #define MAX_ROWS 50
 #define MAX_COLS 50
 
+
+// insert array
+int maze[][5] = {
+	    {3, 0, 0, 0, 0},
+	    {0, 1, 1, 1, 0},
+	    {0, 1, 2, 1, 0},
+	    {0, 1, 0, 0, 0},
+	    {0, 0, 0, 0, 0}
+	};
+int rows = 5, cols = 5;
+
+
 typedef struct {
     int x;
     int y;
@@ -22,8 +34,6 @@ typedef struct {
     Node *rear;
 } Queue;
 
-int maze[MAX_ROWS][MAX_COLS];
-int rows, cols;
 
 void init_queue(Queue *q) {
     q->front = q->rear = NULL;
@@ -94,26 +104,17 @@ int bfs(Point start, Point end, Queue* queue) {
 }
 
 void print_maze() {
+	printf("A = { ");
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
-            printf("%d ", maze[i][j]);
+            printf("\t%d ", maze[i][j]);
         }
         printf("\n");
     }
+    printf("    };\n\n");
 }
 
 int main() {
-    printf("Enter number of rows (maximum %d): ", MAX_ROWS);
-    scanf("%d", &rows);
-    printf("Enter number of columns (maximum %d): ", MAX_COLS);
-    scanf("%d", &cols);
-    printf("Enter maze data:\n");
-    for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < cols; j++) {
-            scanf("%d", &maze[i][j]);
-        }
-    }
-
 	Queue q;
     Queue* queue = &q;
 

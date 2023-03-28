@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a3703c1-3818-493e-9159-6e1930578ac8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Solution/Solution1/ShortestPathUsingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solution/Solution1/ShortestPathUsingStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/Solution/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/test4/test4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/bai4/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/bai4/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/bai4/Stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/bai5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/baitap/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/Solution/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTap/test3/test3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,18 +48,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/CodeJava/Data-Structure-And-Algorithm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeJava/Data-Structure-And-Algorithm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ShortestPathUsingQueue">
+}</component>
+  <component name="RunManager" selected="Application.test4 (1)">
     <configuration name="ShortestPathUsingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution.Solution1.ShortestPathUsingQueue" />
       <module name="Data-Structure-And-Algorithm" />
@@ -79,25 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.Solution.Solution" />
-      <module name="Data-Structure-And-Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stack.Solution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.Solution.Solution" />
+      <option name="MAIN_CLASS_NAME" value="BaiTap.test3.Solution" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.Solution.*" />
+          <option name="PATTERN" value="BaiTap.test3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stack.baitap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.baitap.Main" />
+    <configuration name="test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTap.test3.test3" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.baitap.*" />
+          <option name="PATTERN" value="BaiTap.test3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +99,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.Solution.solution" />
+    <configuration name="test4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTap.test4.test4" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.Solution.*" />
+          <option name="PATTERN" value="BaiTap.test4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTap.test4.test4" />
+      <module name="Data-Structure-And-Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BaiTap.test4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test4 (1)" />
+        <item itemvalue="Application.test4" />
+        <item itemvalue="Application.test3" />
         <item itemvalue="Application.ShortestPathUsingQueue" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.solution" />
-        <item itemvalue="Application.Stack.baitap.Main" />
       </list>
     </recent_temporary>
   </component>

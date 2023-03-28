@@ -1,6 +1,17 @@
-package Stack.Solution;
+package BaiTap.test4;
 
 import java.util.*;
+
+
+interface NodeMethods {
+     boolean isEmpty();
+     void push(int data);
+     int pop();
+     int peek();
+     int sumOfElements();
+     boolean search(int data);
+     void display();
+}
 
 class Node {
     private int data;
@@ -29,23 +40,22 @@ class Node {
 }
 
 
-class Stack {
+class Stack implements NodeMethods {
     private Node top;
 
-    public Stack() {
-        this.top = null;
-    }
-
+    @Override
     public boolean isEmpty() {
         return this.top == null;
     }
 
+    @Override
     public void push(int data) {
         Node temp = new Node(data);
         temp.setNext(top); // temp.next = top;
         top = temp;
     }
 
+    @Override
     public int pop() {
         if (isEmpty()) {
             throw new IllegalStateException("Stack is empty!");
@@ -55,6 +65,7 @@ class Stack {
         return data;
     }
 
+    @Override
     public int peek() {
         if (isEmpty()) {
             throw new IllegalStateException("Stack is empty!");
@@ -62,6 +73,7 @@ class Stack {
         return top.getData();
     }
 
+    @Override
     public int sumOfElements() {
         if (isEmpty()) {
             throw new IllegalStateException("Stack is empty!");
@@ -87,6 +99,7 @@ class Stack {
         return list.parallelStream().mapToInt(Integer::intValue).sum();
     }
 
+    @Override
     public boolean search(int data) {
         Node temp = top;
         while (temp != null) {
@@ -97,6 +110,7 @@ class Stack {
         return false;
     }
 
+    @Override
     public void display() {
         Node temp = top;
         while (temp != null) {
@@ -107,9 +121,8 @@ class Stack {
     }
 }
 
-
-public class Solution {
-    public static void main(String[] args) {
+class Solution {
+    public static void getSolution() {
         Scanner input = new Scanner(System.in);
         Stack myStack = new Stack();
         while(true) {
@@ -153,9 +166,9 @@ public class Solution {
                     System.out.print("Tim kiem gia tri: ");
                     int value = input.nextInt();
                     if (myStack.search(value)) {
-                        System.out.println("Gia tri " + value + " ton tai trong Stack !");
+                        System.out.println("Gia tri " + value + " co ton tai trong Stack!!!");
                     } else {
-                        System.out.println("Gia tri " + value + " khong ton tai trong Stack !");
+                        System.out.println("Gia tri " + value + " khong co trong Stack!!!");
                     }
                     break;
                 }
@@ -172,6 +185,13 @@ public class Solution {
                     break;
             }
         }
+    }
+}
+
+
+public class test4 {
+    public static void main(String[] args) {
+        Solution.getSolution();
     }
 }
 
