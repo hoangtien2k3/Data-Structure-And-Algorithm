@@ -5,47 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a3703c1-3818-493e-9159-6e1930578ac8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Backtracking/Sudoku/Sudoku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashTable/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backtracking/bai1.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backtracking/bai3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/bai3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTap/BaiTapChoKhach/bai2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTap/BaiTapChoKhach/bai2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTap/test4/test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTap/test4/test4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binary_Search/Binary_Search.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binary_Search/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Search/Binary_Search/test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binary_Search/test111.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Search/Binary_Search/test111.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble_Sort/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/Bubble_Sort/1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble_Sort/2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/Bubble_Sort/2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble_Sort/imagin1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/Bubble_Sort/imagin1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble_Sort/imagin2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/Bubble_Sort/imagin2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heap_Sort/Max_heap_and_Min_heap.png" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/Heap_Sort/Max_heap_and_Min_heap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heap_Sort/heap_sort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/Heap_Sort/heap_sort.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/bird_sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/GameFlappyBirds/SourcePackages/Image/bird_sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/chimney.png" beforeDir="false" afterPath="$PROJECT_DIR$/GameFlappyBirds/SourcePackages/Image/chimney.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/chimney_.png" beforeDir="false" afterPath="$PROJECT_DIR$/GameFlappyBirds/SourcePackages/Image/chimney_.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/fall.wav" beforeDir="false" afterPath="$PROJECT_DIR$/GameFlappyBirds/SourcePackages/Image/fall.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/fap.wav" beforeDir="false" afterPath="$PROJECT_DIR$/GameFlappyBirds/SourcePackages/Image/fap.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/getpoint.wav" beforeDir="false" afterPath="$PROJECT_DIR$/GameFlappyBirds/SourcePackages/Image/getpoint.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/ground.png" beforeDir="false" afterPath="$PROJECT_DIR$/GameFlappyBirds/SourcePackages/Image/ground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insertion_Sort/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/Insertion_Sort/1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insertion_Sort/2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/Insertion_Sort/2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insertion_Sort/3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/Insertion_Sort/3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insertion_Sort/imagin_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/Insertion_Sort/imagin_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Insertion_Sort/imagin_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/Insertion_Sort/imagin_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interchange_Sort/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/Interchange_Sort/1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interchange_Sort/imagin_interchange sort.png" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/Interchange_Sort/imagin_interchange sort.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interchange_Sort/imagin_interchange sort_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/Interchange_Sort/imagin_interchange sort_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interpolation_Search/interpolation_search.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linear_Search.cpp/LinearSearch.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merge_Sort/DivideAndConquer.png" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/Merge_Sort/DivideAndConquer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merge_Sort/MergeSort.png" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/Merge_Sort/MergeSort.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merge_Sort/merger_sort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/Merge_Sort/merger_sort.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelectionSort/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/SelectionSort/1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelectionSort/image1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/SelectionSort/image1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelectionSort/image2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/SelectionSort/image2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shell_Sort/Shell_sort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/Shell_Sort/Shell_sort.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sort/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
