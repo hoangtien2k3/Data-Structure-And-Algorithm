@@ -1,8 +1,6 @@
 package BaiTap.test4;
 
 import java.util.*;
-
-
 interface NodeMethods {
      boolean isEmpty();
      void push(int data);

@@ -28,19 +28,14 @@ void Try(int i) {
             //backtracking
             used[j] = 0;
         }
-    }    
-
-
-
+    }
 }
 
 int main() {
     system("cls");
-
     cin >> N;
     Try(1);
     memset(used, 0, sizeof(used)); // khởi tạo các phần tử mảng used đều là 0
-
     system("pause");
     return 0;
 }

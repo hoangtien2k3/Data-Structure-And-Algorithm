@@ -52,7 +52,7 @@
 
 ## 10. Selection Sort:
 
-![SelectionSort](https://user-images.githubusercontent.com/122768076/227689918-d1a76852-bf3f-4c36-b935-5d1a4b7ae038.png)
+![Sort.SelectionSort](https://user-images.githubusercontent.com/122768076/227689918-d1a76852-bf3f-4c36-b935-5d1a4b7ae038.png)
 ![SelectionSortImage](https://user-images.githubusercontent.com/122768076/227689920-c90ef9cb-e06d-4c73-ad4c-5243c592b6a3.png)
 
 

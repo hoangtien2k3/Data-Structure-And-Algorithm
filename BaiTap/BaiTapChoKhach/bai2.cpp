@@ -152,6 +152,8 @@ int bfs(Point start, Point end, Queue* queue) {
 	            if (is_valid(n)) {  // Nếu điểm hàng xóm hợp lệ, ta thêm điểm hàng xóm vào queue bằng hàm enqueue
 	                enqueue(queue, n);  // gọi tới hàm enqueue xuống
 	                maze[n.x][n.y] = 1; // đánh dấu điểm đó là đã được duyệt qua bằng cách gán giá trị của điểm đó trong ma trận maze bằng 1.
+	
+					printf("\t(%d, %d) -> (%d, %d)\n", n.x, n.y, maze[i].x, maze[i].y);
 	            }
 	        }
 	    }
