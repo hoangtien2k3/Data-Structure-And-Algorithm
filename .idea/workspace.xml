@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a3703c1-3818-493e-9159-6e1930578ac8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HashTable/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashTable/HashMapJava/HashMapJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashTable/HashSet/MyHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashTable/HashSetJava/HashSetJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HashTable/MashMap/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/Java_BinarySearchTree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/Java_BinarySearchTree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/Java_BinarySearchTree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/Java_BinarySearchTree/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HashTable/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,24 +56,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/CodeJava/Data-Structure-And-Algorithm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeJava/Data-Structure-And-Algorithm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.test">
-    <configuration name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backtracking.test" />
+}</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="HashMapJava (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTable.HashMapJava.HashMapJava" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Backtracking.*" />
+          <option name="PATTERN" value="HashTable.HashMapJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backtracking.test" />
+    <configuration name="HashMapJava (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTable.HashMapJava.HashMapJava" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Backtracking.*" />
+          <option name="PATTERN" value="HashTable.HashMapJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backtracking.test" />
+    <configuration name="HashMapJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTable.HashMapJava.HashMapJava" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Backtracking.*" />
+          <option name="PATTERN" value="HashTable.HashMapJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backtracking.test" />
+    <configuration name="HashSetJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTable.HashSetJava.HashSetJava" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Backtracking.*" />
+          <option name="PATTERN" value="HashTable.HashSetJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backtracking.test" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.Java_BinarySearchTree.Main" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Backtracking.*" />
+          <option name="PATTERN" value="Tree.Java_BinarySearchTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.test (4)" />
-        <item itemvalue="Application.test (3)" />
-        <item itemvalue="Application.test (2)" />
-        <item itemvalue="Application.test (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HashMapJava (2)" />
+        <item itemvalue="Application.HashMapJava" />
+        <item itemvalue="Application.HashMapJava (1)" />
+        <item itemvalue="Application.HashSetJava" />
       </list>
     </recent_temporary>
   </component>
