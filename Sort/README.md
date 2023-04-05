@@ -1,4 +1,20 @@
-![](https://images.viblo.asia/8cc5a904-c3d4-4b0a-8c52-bbdae9601b57.jpg)
+![](https://images.viblo.asia/84e73dd1-777c-4f83-b223-0d0b16ba0213.jpeg)
+
+## Các thuật toán sắp xếp dựa trên so sánh:
+- Bubble sort
+- Selection sort
+- Insertion sort
+- Merge sort
+- Quicksort
+- Heapsort
+
+
+
+## Các thuật toán so sánh tuyến tính
+- Counting sort
+- Radix sort
+- Bucket sort
+
 
 ## 1. Bubble Sort:
 
