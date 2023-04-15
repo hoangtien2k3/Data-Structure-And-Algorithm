@@ -2,9 +2,9 @@ name: Grid snake
 
 on:
   push:
-    branches: [ main ]
+    branches: [ Main ]
   pull_request:
-    branches: [ main ]
+    branches: [ Main ]
 
   schedule:
     - cron: '0 */2 * * *' 
@@ -28,7 +28,7 @@ jobs:
           svg_out_path: dist/github-contribution-grid-snake.svg
 
       - name: Pull
-        run: git pull origin main
+        run: git pull origin Main
 
       - uses: stefanzweifel/git-auto-commit-action@v4.15.1
         with:

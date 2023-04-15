@@ -7,7 +7,7 @@
 
 ## 2. Bucket Sort:
 
-![BucketSort](https://user-images.githubusercontent.com/122768076/227689748-c83407c7-3fbc-4cd0-aa9d-cf93ec0df401.png)
+![Sort.Bucket_Sort](https://user-images.githubusercontent.com/122768076/227689748-c83407c7-3fbc-4cd0-aa9d-cf93ec0df401.png)
 <img width="707" alt="BucketSortImage" src="https://user-images.githubusercontent.com/122768076/227689752-b324be2a-a1ee-47ba-a49f-cf57349e162b.png">
 
 ## 3. Comb Sort:

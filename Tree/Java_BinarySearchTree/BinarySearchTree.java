@@ -116,7 +116,6 @@ public class BinarySearchTree {
         return 1 + Math.max(TreeLevel(root.left), TreeLevel(root.right));
     }
 
-
     //! in node có 2 con:
     public void Print_Node_2_Element(Node root) {
         if (root != null) {
@@ -127,7 +126,6 @@ public class BinarySearchTree {
             Print_Node_2_Element(root.right);
         }
     }
-
 
     //! in node co 1 con:
     public void Print_Node_1_Element(Node root) {
