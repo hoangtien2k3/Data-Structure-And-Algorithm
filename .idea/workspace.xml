@@ -5,22 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a3703c1-3818-493e-9159-6e1930578ac8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau1/AbstractPhanSo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau1/PhanSo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau1/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/bai1/bai1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/bai2/bai2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sort/Bucket_Sort/BucketSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sort/Bucket_Sort/REAMD.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/action-update.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/action-update.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/c-cpp.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/c-cpp.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/cmake.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cmake.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/CanBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/CongNhan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/KySu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/NhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/QLCB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/QuanLyCanBo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sort/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/Java_BinarySearchTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/Java_BinarySearchTree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/github-contribution-grid-snake.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -72,7 +65,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.BaiTap.baitap.ThucHanh6.Cau2.Main">
+    <configuration name="BaiTap.baitap.ThucHanh6.Cau2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTap.baitap.ThucHanh6.Cau2.Main" />
+      <module name="Data-Structure-And-Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BaiTap.baitap.ThucHanh6.Cau2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BaiTap.baitap.bai3.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BaiTap.baitap.bai3.client" />
       <module name="Data-Structure-And-Algorithm" />
@@ -92,19 +98,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="BaiTap.baitap.ThucHanh6.Cau1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bai2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTap.baitap.bai2.bai2" />
-      <module name="Data-Structure-And-Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BaiTap.baitap.bai2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BaiTap.baitap.ThucHanh6.Cau2.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.BaiTap.baitap.bai3.client" />
         <item itemvalue="Application.client" />
         <item itemvalue="Application.bai2" />
-        <item itemvalue="Application.bai2 (2)" />
       </list>
     </recent_temporary>
   </component>

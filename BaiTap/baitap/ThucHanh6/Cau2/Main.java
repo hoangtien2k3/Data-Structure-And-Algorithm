@@ -18,5 +18,39 @@
 
 package BaiTap.baitap.ThucHanh6.Cau2;
 
+import java.util.Scanner;
+
 public class Main {
+    public static void main(String[] args) {
+        QuanLyCanBo quanLyCanBo = new QLCB();
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            System.out.println("\n____________ QUẢN LÝ CÁN BỘ __________");
+            System.out.println("  1. Thêm mới cán bộ");
+            System.out.println("  2. Tìm kiếm cán bộ theo họ tên");
+            System.out.println("  3. Hiển thị danh sách cán bộ");
+            System.out.println("  4. Thoát");
+            System.out.println("______________________________________");
+            System.out.print("Chọn chức năng (1-4): ");
+            int chon = scanner.nextInt();
+            scanner.nextLine();
+            switch (chon) {
+                case 1:
+                    quanLyCanBo.themMoiCanBo();
+                    break;
+                case 2:
+                    quanLyCanBo.timKiemCanBo();
+                    break;
+                case 3:
+                    quanLyCanBo.hienThiDanhSachCanBo();
+                    break;
+                case 4:
+                    quanLyCanBo.thoat();
+                    break;
+                default:
+                    System.out.println("Không đúng chức năng. Vui lòng chọn lại!");
+                    break;
+            }
+        }
+    }
 }
