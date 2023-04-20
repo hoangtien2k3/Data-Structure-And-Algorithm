@@ -24,7 +24,7 @@ public class QLCB implements QuanLyCanBo {
         String gioiTinh = scanner.nextLine();
         System.out.print(" + Nhập địa chỉ: ");
         String diaChi = scanner.nextLine();
-        System.out.print(" + Chọn loại cán bộ (1: Công nhân, 2: Kỹ sư, 3: Nhân viên): ");
+        System.out.print(" + Loại cán bộ: (1-Công nhân, 2-Kỹ sư, 3-Nhân viên): ");
         int loaiCanBo = scanner.nextInt();
         scanner.nextLine();
         switch (loaiCanBo) {
@@ -66,7 +66,6 @@ public class QLCB implements QuanLyCanBo {
                 System.out.println(" + Năm sinh: " + canBo.getNamSinh());
                 System.out.println(" + Giới tính: " + canBo.getGioiTinh());
                 System.out.println(" + Địa chỉ: " + canBo.getDiaChi());
-
                 timThay = true;
             }
         }

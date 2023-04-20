@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a3703c1-3818-493e-9159-6e1930578ac8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/CanBo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/CongNhan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/KySu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/NhanVien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/QLCB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/QuanLyCanBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh7/Cau1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/QLCB.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/QLCB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/QuanLyCanBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/QuanLyCanBo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,18 +50,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CodeJava/Data-Structure-And-Algorithm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/CodeJava/Data-Structure-And-Algorithm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
-}</component>
-  <component name="RunManager" selected="Application.BaiTap.baitap.ThucHanh6.Cau2.Main">
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BaiTap.baitap.ThucHanh6.Cau2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BaiTap.baitap.ThucHanh6.Cau2.Main" />
       <module name="Data-Structure-And-Algorithm" />
@@ -133,8 +129,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BaiTap.baitap.ThucHanh6.Cau2.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BaiTap.baitap.ThucHanh6.Cau2.Main" />
         <item itemvalue="Application.BaiTap.baitap.bai3.client" />
         <item itemvalue="Application.client" />
         <item itemvalue="Application.bai2" />
