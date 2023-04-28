@@ -10,7 +10,7 @@
 */
 
 
-package BaiTap.baitap.ThucHanh6.Cau1;
+package BaiTapUTT.baitap.ThucHanh6.Cau1;
 
 public class Main {
     public static void main(String[] args) {

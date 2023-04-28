@@ -5,10 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a3703c1-3818-493e-9159-6e1930578ac8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh7/Cau1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai1/HoDan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai1/INguoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai1/KhuPho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai1/Nguoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai2/IKhachSan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai2/Khach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai2/KhachSan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai2/Nguoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/QLCB.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/QLCB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/QuanLyCanBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTap/baitap/ThucHanh6/Cau2/QuanLyCanBo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau1/AbstractPhanSo.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau1/AbstractPhanSo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau1/PhanSo.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau1/PhanSo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau1/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau1/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/CanBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/CanBo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/CongNhan.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/CongNhan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/KySu.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/KySu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/NhanVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/NhanVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/QLCB.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/QLCB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/QuanLyCanBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/QuanLyCanBo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,24 +68,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/CodeJava/Data-Structure-And-Algorithm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeJava/Java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="BaiTap.baitap.ThucHanh6.Cau2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTap.baitap.ThucHanh6.Cau2.Main" />
+}</component>
+  <component name="RunManager" selected="Application.BaiTapUTT.baitap.Lab7.bai1.Main">
+    <configuration name="BaiTapUTT.baitap.Lab7.bai1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTapUTT.baitap.Lab7.bai1.Main" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BaiTap.baitap.ThucHanh6.Cau2.*" />
+          <option name="PATTERN" value="BaiTapUTT.baitap.Lab7.bai1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaiTap.baitap.bai3.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTap.baitap.bai3.client" />
+    <configuration name="BaiTapUTT.baitap.Lab7.bai2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTapUTT.baitap.Lab7.bai2.Main" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BaiTap.baitap.bai3.*" />
+          <option name="PATTERN" value="BaiTapUTT.baitap.Lab7.bai2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTap.baitap.ThucHanh6.Cau1.Main" />
+    <configuration name="BaiTapUTT.baitap.ThucHanh6.Cau1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTapUTT.baitap.ThucHanh6.Cau1.Main" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BaiTap.baitap.ThucHanh6.Cau1.*" />
+          <option name="PATTERN" value="BaiTapUTT.baitap.ThucHanh6.Cau1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bai2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTap.baitap.bai2.bai2" />
+    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTapUTT.baitap.Lab7.bai2.MyClass" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BaiTap.baitap.bai2.*" />
+          <option name="PATTERN" value="BaiTapUTT.baitap.Lab7.bai2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTap.kethua.client" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTapUTT.baitap.Lab7.bai1.test" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BaiTap.kethua.*" />
+          <option name="PATTERN" value="BaiTapUTT.baitap.Lab7.bai1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BaiTap.baitap.ThucHanh6.Cau2.Main" />
-        <item itemvalue="Application.BaiTap.baitap.bai3.client" />
-        <item itemvalue="Application.client" />
-        <item itemvalue="Application.bai2" />
+        <item itemvalue="Application.BaiTapUTT.baitap.Lab7.bai1.Main" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.BaiTapUTT.baitap.Lab7.bai2.Main" />
+        <item itemvalue="Application.MyClass" />
+        <item itemvalue="Application.BaiTapUTT.baitap.ThucHanh6.Cau1.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -147,5 +165,21 @@
       <updated>1676907437721</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai2/PersonInfo.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai2/Main.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

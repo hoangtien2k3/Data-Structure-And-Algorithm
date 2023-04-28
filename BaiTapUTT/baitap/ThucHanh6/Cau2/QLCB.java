@@ -1,8 +1,10 @@
-package BaiTap.baitap.ThucHanh6.Cau2;
+package BaiTapUTT.baitap.ThucHanh6.Cau2;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.stream.Collectors;
 
 public class QLCB implements QuanLyCanBo {
     private List<CanBo> danhSachCanBo;
@@ -57,18 +59,20 @@ public class QLCB implements QuanLyCanBo {
         System.out.println("\n_______ Nhập Thông Tin Tìm kiếm _______");
         System.out.print(" + Nhập họ tên cần tim kiếm: ");
         String hoTenCanTimKiem = scanner.nextLine();
-        boolean timThay = false;
-        for (CanBo canBo : danhSachCanBo) {
-            if (canBo.getHoTen().equals(hoTenCanTimKiem)) {
-                System.out.println("\n <=> Thông tin cán bộ cần tìm kiếm <=>");
-                System.out.println(" + Loại cán bộ: " + canBo.loaiCanBo());
-                System.out.println(" + Họ tên: " + canBo.getHoTen());
-                System.out.println(" + Năm sinh: " + canBo.getNamSinh());
-                System.out.println(" + Giới tính: " + canBo.getGioiTinh());
-                System.out.println(" + Địa chỉ: " + canBo.getDiaChi());
-                timThay = true;
-            }
-        }
+        boolean timThay = danhSachCanBo
+                .stream()
+                .filter(canBo -> canBo.getHoTen().equals(hoTenCanTimKiem))
+                .peek(canBo -> {
+                    System.out.println("\n <=> Thông tin cán bộ cần tìm kiếm <=>");
+                    System.out.println(" + Loại cán bộ: " + canBo.loaiCanBo());
+                    System.out.println(" + Họ tên: " + canBo.getHoTen());
+                    System.out.println(" + Năm sinh: " + canBo.getNamSinh());
+                    System.out.println(" + Giới tính: " + canBo.getGioiTinh());
+                    System.out.println(" + Địa chỉ: " + canBo.getDiaChi());
+                })
+                .findFirst() // trả về phần tử đầu tiên
+                .isPresent(); // kiểm tra xem đối tượng cần tìm có tồn tại không.
+
         if (!timThay) {
             System.out.println("Không tìm thấy cán bộ có họ tên \"" + hoTenCanTimKiem + "\"");
         }
@@ -82,17 +86,19 @@ public class QLCB implements QuanLyCanBo {
             return;
         }
         System.out.println("\n____________ Hiển Thị Thông Tin ___________");
-        int i = 1;
-        for (CanBo canBo : danhSachCanBo) {
-            System.out.println("\n - Thông tin của cán bộ thứ " + i++ + ": ");
-            System.out.println(" + Loại cán bộ: " + canBo.loaiCanBo());
-            System.out.println(" + Họ tên: " + canBo.getHoTen());
-            System.out.println(" + Năm sinh: " + canBo.getNamSinh());
-            System.out.println(" + Giới tính: " + canBo.getGioiTinh());
-            System.out.println(" + Địa chỉ: " + canBo.getDiaChi());
-            System.out.println(" + " + canBo.thongTinBoSung());
-            System.out.println("_____________________________________________ ");
-        }
+        AtomicInteger i = new AtomicInteger(1);
+        danhSachCanBo.stream()
+                .peek(canBo -> System.out.println("\n - Thông tin của cán bộ thứ " + i.getAndIncrement() + ": "))
+                .forEach(canBo -> {
+                    System.out.println("\n - Thông tin của cán bộ thứ " + i.getAndIncrement() + ": ");
+                    System.out.println(" + Loại cán bộ: " + canBo.loaiCanBo());
+                    System.out.println(" + Họ tên: " + canBo.getHoTen());
+                    System.out.println(" + Năm sinh: " + canBo.getNamSinh());
+                    System.out.println(" + Giới tính: " + canBo.getGioiTinh());
+                    System.out.println(" + Địa chỉ: " + canBo.getDiaChi());
+                    System.out.println(" + " + canBo.thongTinBoSung());
+                    System.out.println("_____________________________________________ ");
+                });
     }
 
     @Override

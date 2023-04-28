@@ -1,4 +1,4 @@
-package BaiTap.baitap.ThucHanh6.Cau1;
+package BaiTapUTT.baitap.ThucHanh6.Cau1;
 
 public abstract class AbstractPhanSo {
     protected int tuSo;

@@ -1,4 +1,4 @@
-package BaiTap.baitap.ThucHanh6.Cau2;
+package BaiTapUTT.baitap.ThucHanh6.Cau2;
 
 public class NhanVien extends CanBo {
     private String congViec;

@@ -1,4 +1,4 @@
-package BaiTap.baitap.ThucHanh6.Cau1;
+package BaiTapUTT.baitap.ThucHanh6.Cau1;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,6 @@
-package BaiTap.baitap.ThucHanh6.Cau1;
+package BaiTapUTT.baitap.ThucHanh6.Cau1;
+
+import java.util.stream.Stream;
 
 public class PhanSo extends AbstractPhanSo{
     public PhanSo(int tuSo, int mauSo) {

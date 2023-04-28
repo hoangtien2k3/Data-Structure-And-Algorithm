@@ -16,7 +16,7 @@
     - Thoát khỏi chương trình.
 */
 
-package BaiTap.baitap.ThucHanh6.Cau2;
+package BaiTapUTT.baitap.ThucHanh6.Cau2;
 
 import java.util.Scanner;
 
