@@ -65,7 +65,6 @@ public class Khach extends Nguoi implements IKhachSan {
     }
 
     public static int count = 0;
-
     @Override
     public void hienThiThongTin() {
         System.out.println("-----------------------> Thông tin khách trọ " + ++count + " <--------------------");

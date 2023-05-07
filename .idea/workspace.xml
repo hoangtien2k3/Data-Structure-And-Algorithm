@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a3703c1-3818-493e-9159-6e1930578ac8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai1/HoDan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai1/INguoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai1/KhuPho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai1/Nguoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai2/IKhachSan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai2/Khach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai2/KhachSan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai2/Nguoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau1/AbstractPhanSo.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau1/AbstractPhanSo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau1/PhanSo.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau1/PhanSo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau1/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau1/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/CanBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/CanBo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/CongNhan.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/CongNhan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/KySu.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/KySu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/NhanVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/NhanVien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/QLCB.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/QLCB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/QuanLyCanBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/ThucHanh6/Cau2/QuanLyCanBo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai2/Khach.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai2/Khach.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,24 +48,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CodeJava/Java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/CodeJava/Java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
-}</component>
-  <component name="RunManager" selected="Application.BaiTapUTT.baitap.Lab7.bai1.Main">
-    <configuration name="BaiTapUTT.baitap.Lab7.bai1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTapUTT.baitap.Lab7.bai1.Main" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeJava\Data-Structure-And-Algorithm\Graph\Breadth First Search _ BFS" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.QuickSort_Java (2)">
+    <configuration name="MergeSort_Java (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.Merge_Sort.MergeSort_Java" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BaiTapUTT.baitap.Lab7.bai1.*" />
+          <option name="PATTERN" value="Sort.Merge_Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaiTapUTT.baitap.Lab7.bai2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTapUTT.baitap.Lab7.bai2.Main" />
+    <configuration name="MergeSort_Java (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.Merge_Sort.MergeSort_Java" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BaiTapUTT.baitap.Lab7.bai2.*" />
+          <option name="PATTERN" value="Sort.Merge_Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaiTapUTT.baitap.ThucHanh6.Cau1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTapUTT.baitap.ThucHanh6.Cau1.Main" />
+    <configuration name="QuickSort_Java (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.Quick_Sort.QuickSort_Java" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BaiTapUTT.baitap.ThucHanh6.Cau1.*" />
+          <option name="PATTERN" value="Sort.Quick_Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTapUTT.baitap.Lab7.bai2.MyClass" />
+    <configuration name="QuickSort_Java (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.Quick_Sort.QuickSort_Java" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BaiTapUTT.baitap.Lab7.bai2.*" />
+          <option name="PATTERN" value="Sort.Quick_Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaiTapUTT.baitap.Lab7.bai1.test" />
+    <configuration name="QuickSort_Java" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.Quick_Sort.QuickSort_Java" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BaiTapUTT.baitap.Lab7.bai1.*" />
+          <option name="PATTERN" value="Sort.Quick_Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BaiTapUTT.baitap.Lab7.bai1.Main" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.BaiTapUTT.baitap.Lab7.bai2.Main" />
-        <item itemvalue="Application.MyClass" />
-        <item itemvalue="Application.BaiTapUTT.baitap.ThucHanh6.Cau1.Main" />
+        <item itemvalue="Application.QuickSort_Java (2)" />
+        <item itemvalue="Application.MergeSort_Java (2)" />
+        <item itemvalue="Application.QuickSort_Java (1)" />
+        <item itemvalue="Application.QuickSort_Java" />
+        <item itemvalue="Application.MergeSort_Java (1)" />
       </list>
     </recent_temporary>
   </component>
