@@ -33,3 +33,4 @@ out/
 
 hs_err_pid*
 replay_pid*
+/OnTapJava/nbproject/private/

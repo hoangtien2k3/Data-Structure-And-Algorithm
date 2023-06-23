@@ -5,8 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a3703c1-3818-493e-9159-6e1930578ac8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/BaiTapGhiFileVoiLuongByte/Bai1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/BaiTapGhiFileVoiLuongByte/Bai1/NhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/BaiTapGhiFileVoiLuongByte/Bai1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/BaiTapGhiFileVoiLuongByte/Bai2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/BaiTapGhiFileVoiLuongByte/Bai2/Sinhvien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/BaiTapGhiFileVoiLuongByte/Bai2/SinhvienHTTT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/BaiTapGhiFileVoiLuongByte/Bai2/SinhvienUTT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/BaiTapGhiFileVoiLuongChar/Bai1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/BaiTapGhiFileVoiLuongChar/Bai1/NhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/BaiTapGhiFileVoiLuongChar/Bai1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/BaiTapGhiFileVoiLuongChar/Bai2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/BaiTapGhiFileVoiLuongChar/Bai2/Sinhvien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/BaiTapGhiFileVoiLuongChar/Bai2/SinhvienHTTT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/BaiTapGhiFileVoiLuongChar/Bai2/SinhvienUTT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/BaiTapGhiFileVoiLuongChar/Bai3/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/BaiTapGhiFileVoiLuongChar/Bai3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/KiemTra/hvco.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/KiemTra/hvoto.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/KiemTra/kiemtra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab6/Circular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab6/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab6/Composite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab6/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab6/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nhanvien.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nhanvien.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tien.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai2/Khach.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapUTT/baitap/Lab7/bai2/Khach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +70,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectId" id="2M0bRQDYNMXiK19MzJv1gBEvkPF" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,33 +81,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/CodeJava/Java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeJava/LeetCode-Solutions&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\CodeJava\Data-Structure-And-Algorithm\Graph\Breadth First Search _ BFS" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuickSort_Java (2)">
-    <configuration name="MergeSort_Java (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.Merge_Sort.MergeSort_Java" />
+  <component name="RunManager" selected="Application.BaiTapUTT.BaiTapGhiFileVoiLuongByte.Bai1.Main">
+    <configuration name="BaiTapUTT.BaiTapGhiFileVoiLuongByte.Bai1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTapUTT.BaiTapGhiFileVoiLuongByte.Bai1.Main" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.Merge_Sort.*" />
+          <option name="PATTERN" value="BaiTapUTT.BaiTapGhiFileVoiLuongByte.Bai1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort_Java (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.Merge_Sort.MergeSort_Java" />
+    <configuration name="BaiTapUTT.BaiTapGhiFileVoiLuongByte.Bai2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTapUTT.BaiTapGhiFileVoiLuongByte.Bai2.Main" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.Merge_Sort.*" />
+          <option name="PATTERN" value="BaiTapUTT.BaiTapGhiFileVoiLuongByte.Bai2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort_Java (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.Quick_Sort.QuickSort_Java" />
+    <configuration name="BaiTapUTT.BaiTapGhiFileVoiLuongChar.Bai1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTapUTT.BaiTapGhiFileVoiLuongChar.Bai1.Main" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.Quick_Sort.*" />
+          <option name="PATTERN" value="BaiTapUTT.BaiTapGhiFileVoiLuongChar.Bai1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort_Java (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.Quick_Sort.QuickSort_Java" />
+    <configuration name="BaiTapUTT.BaiTapGhiFileVoiLuongChar.Bai2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTapUTT.BaiTapGhiFileVoiLuongChar.Bai2.Main" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.Quick_Sort.*" />
+          <option name="PATTERN" value="BaiTapUTT.BaiTapGhiFileVoiLuongChar.Bai2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort_Java" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.Quick_Sort.QuickSort_Java" />
+    <configuration name="BaiTapUTT.BaiTapGhiFileVoiLuongChar.Bai3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTapUTT.BaiTapGhiFileVoiLuongChar.Bai3.Main" />
       <module name="Data-Structure-And-Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.Quick_Sort.*" />
+          <option name="PATTERN" value="BaiTapUTT.BaiTapGhiFileVoiLuongChar.Bai3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuickSort_Java (2)" />
-        <item itemvalue="Application.MergeSort_Java (2)" />
-        <item itemvalue="Application.QuickSort_Java (1)" />
-        <item itemvalue="Application.QuickSort_Java" />
-        <item itemvalue="Application.MergeSort_Java (1)" />
+        <item itemvalue="Application.BaiTapUTT.BaiTapGhiFileVoiLuongByte.Bai1.Main" />
+        <item itemvalue="Application.BaiTapUTT.BaiTapGhiFileVoiLuongByte.Bai2.Main" />
+        <item itemvalue="Application.BaiTapUTT.BaiTapGhiFileVoiLuongChar.Bai1.Main" />
+        <item itemvalue="Application.BaiTapUTT.BaiTapGhiFileVoiLuongChar.Bai3.Main" />
+        <item itemvalue="Application.BaiTapUTT.BaiTapGhiFileVoiLuongChar.Bai2.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +190,9 @@
       <updated>1676907437721</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
