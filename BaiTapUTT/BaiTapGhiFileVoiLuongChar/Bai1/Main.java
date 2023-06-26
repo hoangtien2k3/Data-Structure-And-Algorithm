@@ -19,10 +19,7 @@ package BaiTapUTT.BaiTapGhiFileVoiLuongChar.Bai1;
         c. Copy nội dung sang file khác(tên file nhập từ bàn phím)
 */
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -45,14 +42,13 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhập tên file mới: ");
         String tenFileMoi = scanner.nextLine();
-        // String tenFileMoi = "new_nhanvien.txt"; // Tên file mới
         saoChepFile("nhanvien.txt", tenFileMoi);
     }
 
     public static ArrayList<NhanVien> docFileNhanVien(String tenFile) {
         ArrayList<NhanVien> danhSachNhanVien = new ArrayList<>();
 
-        try (BufferedReader br = new BufferedReader(new FileReader(tenFile))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(new File(tenFile)))) {
             String line;
             while ((line = br.readLine()) != null) {
                 String[] data = line.split("\\$");
@@ -76,7 +72,7 @@ public class Main {
     }
 
     public static void ghiFileNhanVien(ArrayList<NhanVien> danhSachNhanVien, String tenFile) {
-        try (FileWriter writer = new FileWriter(tenFile)) {
+        try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(new File(tenFile)))) {
             for (NhanVien nhanVien : danhSachNhanVien) {
                 String line = nhanVien.getHoTen() + "$" +
                         nhanVien.getNgaySinh() + "$" +
@@ -87,7 +83,7 @@ public class Main {
                         nhanVien.getThamNien() + "$" +
                         nhanVien.getLuongCoBan();
 
-                writer.write(line + System.lineSeparator());
+                bufferedWriter.write(line + System.lineSeparator());
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -95,11 +91,11 @@ public class Main {
     }
 
     public static void saoChepFile(String tenFileGoc, String tenFileMoi) {
-        try (BufferedReader br = new BufferedReader(new FileReader(tenFileGoc));
-             FileWriter writer = new FileWriter(tenFileMoi)) {
+        try (BufferedReader br = new BufferedReader(new FileReader(new File(tenFileGoc)));
+             BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(new File(tenFileMoi)))) {
                 String line;
                 while ((line = br.readLine()) != null) {
-                    writer.write(line + System.lineSeparator());
+                    bufferedWriter.write(line + System.lineSeparator());
                 }
         } catch (IOException e) {
             e.printStackTrace();

@@ -1,3 +1,25 @@
+/*
+    Bài 1 (đọc ghi file dạng object):
+    Định nghĩa các lớp theo yêu cầu sau:
+        a. Hãy định nghĩa class Person với các thuộc tính: Họ tên, ngày sinh, địa
+        chỉ, giới tính và các phương thức khởi tạo, hiển thị thông tin.
+        b. Định nghĩa class NhanVien kế thừa từ Person, có thêm các
+        thuộc tính: phòng ban, hệ số lương, thâm niên, lương cơ bản và các
+        phương thức khởi tạo, tính lương thực lĩnh, hiển thị thông tin cá nhân
+        Trong đó: lương thực lĩnh = Lương cơ bản * hệ số (1 + thâm niên/100)
+    Yêu cầu
+        a. Thiết kế các phương thức cho phép nhập dữ liệu từ bàn phím và ghi
+        dữ liệu dạng đối tượng, mỗi đối tượng lưu trên một dòng là một đối
+        tượng NhanVien
+        b. Hãy đọc file nhanvien.dat gồm danh sách các nhân viên được lưu trữ
+        dạng đối tượng như trong câu a. Dữ liệu đọc được lưu dưới dạng một
+        mảng các đối tượng nhân viên (arraylist).
+        c. Hiển thị danh sách trên trong màn hình console, đồng thời ghi đối
+        tượng sang file nhanvien.obj.
+        d. Copy nội dung sang file khác(tên file nhập từ bàn phím).
+
+*/
+
 package BaiTapUTT.BaiTapGhiFileVoiLuongByte.Bai1;
 
 import java.io.BufferedReader;
@@ -15,7 +37,6 @@ public class Main {
 
     public static void main(String[] args) {
         ArrayList<NhanVien> employees = new ArrayList<>();
-
 
         // Nhập dữ liệu từ bàn phím và ghi vào file nhanvien.dat
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("nhanvien.dat"))) {

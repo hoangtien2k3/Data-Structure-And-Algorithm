@@ -62,6 +62,7 @@ public class Main {
             svUTT.luuDuLieu();
             System.out.println("Đã lưu thông tin SinhvienUTT vào file (svutt.dat) Thành Công.");
 
+            i++;
         }
 
         scanner.close();

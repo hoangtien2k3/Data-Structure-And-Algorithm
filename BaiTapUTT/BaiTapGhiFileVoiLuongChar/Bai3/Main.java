@@ -45,9 +45,15 @@ public class Main {
         System.out.print("Bạn có muốn xóa file books.dat? (y/n): ");
         String confirm = scanner.nextLine();
         if (confirm.equalsIgnoreCase("y")) {
-            System.out.print("Nhập đường dẫn thư mục và tên file backup: ");
+            System.out.println("Nhập đường dẫn thư mục và tên file backup: ");
+
+            System.out.print("\t+ Đường dẫn đến thư mục: ");
             String backupFilePath = scanner.nextLine();
-            xoaFile("books.dat", backupFilePath);
+
+            System.out.print("\t+ Tên file muốn backup dữ liệu: ");
+            String fileName = scanner.nextLine();
+
+            xoaFile("books.dat", backupFilePath, fileName);
         }
 
         scanner.close();
@@ -55,7 +61,8 @@ public class Main {
 
     public static void luuDuLieu(Book book) {
         try {
-            FileWriter fileWriter = new FileWriter("books.dat", true);
+            File file = new File("books.dat");
+            FileWriter fileWriter = new FileWriter(file, true);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
             // Ghi thông tin sách vào tệp
@@ -69,9 +76,9 @@ public class Main {
         }
     }
 
-    public static void xoaFile(String filePath, String backupFilePath) {
+    public static void xoaFile(String filePath, String backupFilePath, String fileName) {
         File file = new File(filePath);
-        File backupFile = new File(backupFilePath);
+        File backupFile = new File(backupFilePath + "\\" + fileName); // lưu đường dẫn đến thư mục cần backupFile
 
         // Kiểm tra nếu tệp tồn tại thì tiến hành xóa
         if (file.exists()) {
@@ -106,6 +113,5 @@ public class Main {
             System.out.println("Tệp " + filePath + " không tồn tại.");
         }
     }
-
 
 }
