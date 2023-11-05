@@ -1,7 +1,3 @@
-<p align="center">
-  <a href="github.com/hoangtien2k3qx1"><img src="https://i.ytimg.com/vi/CBYHwZcbD-s/maxresdefault.jpg"></a>
-</p>
-
 ## Algorithms
 
 An algorithm is a set of instructions that are used to accomplish a task, such as finding the largest number in a list, removing all the red cards from a deck of playing cards, sorting a collection of names, or figuring out an average movie rating from just your friends' opinions.
